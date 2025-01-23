@@ -1,0 +1,304 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  font-style: normal;
+}
+a,
+button {
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* header */
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+.logo-part {
+  color: #2e2f42;
+}
+.logo:hover,
+.logo:focus,
+.logo-part:hover,
+.logo-part:focus {
+  color: #404bbf;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-link {
+  display: block;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 24px 0;
+}
+.nav-items .nav-link:hover,
+.nav-items .nav-link:focus {
+  color: #404bbf;
+}
+
+.nav-address {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  margin-left: auto;
+}
+.address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+/* Address section LI styles */
+.address-items {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-link {
+  display: block;
+  color: #434455;
+  padding: 24px 0;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+/* Firts section styles */
+.first-section {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+.first-section div.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* 1st section H1 styles */
+.header-one {
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 48px;
+  margin-top: 0;
+  max-width: 496px;
+}
+/* 1st section Button styles */
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  min-width: 169px;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+/* Button hover and focus styles */
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+/* 2nd section About US */
+.about-section {
+  padding: 120px 0;
+}
+.about-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.header-three {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.about-items {
+  width: calc((100% - 72px) / 4);
+}
+/* 2nd section Paragraph styles */
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+/* Third Section - Our Team  */
+.team-section {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+/* 3rd section H2 styles */
+
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.11; /* Высота строки равна высоте текста */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 72px;
+  margin-top: 0;
+}
+/* 3rd section UL styles */
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.team-items {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-description {
+  padding: 32px 0;
+}
+.team-description .header-three {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-description .text {
+  text-align: center;
+}
+/*4th Section - Portfolio */
+.portfolio-section {
+  padding: 120px 0;
+}
+/* portfolio H2 styles */
+.portfolio-section .header-two {
+  text-align: center;
+}
+/* 4th section portfolio UL styles */
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+/* 4th section portfolio LI styles */
+.portfolio-items {
+  width: calc((100% - 48px) / 3);
+}
+.product-descr {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.product-descr .header-three {
+  margin-bottom: 8px;
+}
+/* Footer section */
+.footer-section {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif; /* Используем правильный шрифт */
+  font-size: 18px; /* Размер шрифта */
+  font-weight: 700; /* Жирный шрифт */
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase; /* Текст в верхнем регистре */
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd; /* Цвет для "Studio" */
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: #404bbf; /* Hover and focus color */
+}
+.footer-section .logo-part:hover,
+.footer-section .logo-part:focus {
+  color: #404bbf; /* Hover and focus color */
+}
+.footer-section .text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
