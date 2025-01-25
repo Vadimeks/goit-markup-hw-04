@@ -377,9 +377,7 @@ img {
   flex-direction: row;
   justify-content: left;
   align-items: baseline;
-
   margin: 0;
-
   padding: 100px 0;
   padding-left: 156px;
 }
@@ -393,7 +391,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: baseline;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif; /* Используем правильный шрифт */
