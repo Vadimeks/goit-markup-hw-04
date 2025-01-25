@@ -147,6 +147,7 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .hero-section div.container {
   display: flex;
@@ -387,6 +388,7 @@ img {
   justify-content: left;
   margin-right: 120px;
 }
+
 .footer-social .container {
   display: flex;
   flex-direction: column;
@@ -422,13 +424,19 @@ img {
   max-width: 264px;
 }
 .footer-social .text {
-  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social .link-icons:hover,
+.footer-social .link-icons:focus {
+  background-color: #31d0aa;
 }
 .footer-social .social-icons {
   margin-top: 0;
+  gap: 16px;
 }
