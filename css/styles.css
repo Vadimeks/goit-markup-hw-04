@@ -395,22 +395,21 @@ img {
   flex-direction: row;
   justify-content: left;
   align-items: baseline;
-  margin: 0;
-  padding: 100px 0;
-  padding-left: 156px;
 }
 .footer-box {
   display: flex;
   flex-direction: column;
   justify-content: left;
   margin-right: 120px;
+  padding: 100px 0;
 }
 
-.footer-social .container {
+.footer-social {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: baseline;
+  justify-content: left;
+  padding: 100px 0 132px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif; /* Используем правильный шрифт */
