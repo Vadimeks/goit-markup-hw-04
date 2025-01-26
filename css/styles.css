@@ -138,7 +138,6 @@ img {
 .hero-section {
   max-width: 1440px;
   background-color: #2e2f42;
-  padding: 188px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -149,11 +148,12 @@ img {
   background-repeat: no-repeat;
   margin: 0 auto;
 }
-.hero-section div.container {
+.hero-section .container {
   display: flex;
-
   align-items: center;
   flex-direction: column;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 /* 1st section H1 styles */
 .header-one {
@@ -188,8 +188,9 @@ img {
   background-color: #404bbf;
 }
 /* 2nd section About US */
-.about-section {
-  padding: 120px 0;
+.about-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .about-list {
   display: flex;
@@ -246,7 +247,10 @@ img {
 /* Third Section - Our Team  */
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+}
+.team-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /* 3rd section H2 styles */
 
@@ -321,8 +325,9 @@ img {
 }
 /*4th Section - Portfolio */
 
-.portfolio-section {
-  padding: 120px 0;
+.portfolio-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 /* portfolio H2 styles */
 .portfolio-section .header-two {
@@ -395,13 +400,14 @@ img {
   flex-direction: row;
   justify-content: left;
   align-items: baseline;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-box {
   display: flex;
   flex-direction: column;
   justify-content: left;
   margin-right: 120px;
-  padding: 100px 0;
 }
 
 .footer-social {
@@ -409,7 +415,6 @@ img {
   flex-direction: column;
   align-items: flex-start;
   justify-content: left;
-  padding: 100px 0 132px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif; /* Используем правильный шрифт */
